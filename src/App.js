@@ -7,17 +7,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <input id="cid_1" placeholder="CID"></input>
+        <input id="fullname_en" placeholder="FULLNAME EN"></input>
+        <input id="fullname_th" placeholder="FULLNAME TH"></input>
+        <input id="gender" placeholder="GENDER"></input>
+        <input id="dob" placeholder="DATE OF BIRTH"></input>
+        <input id="issuer" placeholder="ISSUER"></input>
+        <input id="issue_date" placeholder="ISSUE DATE"></input>
+        <textarea id="address" placeholder="ADDRESS"></textarea>
       </header>
     </div>
   );
